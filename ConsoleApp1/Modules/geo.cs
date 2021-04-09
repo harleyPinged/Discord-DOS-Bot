@@ -33,7 +33,7 @@ namespace ConsoleApp1.Modules
                 StreamReader reader = new StreamReader(dataStream);
                 string responseFromServer = reader.ReadToEnd();
                 await ReplyAsync(responseFromServer);
-                await ReplyAsync("\t - Brought to you by DevilsExploits");
+                await ReplyAsync("\t - Brought to you by SNP Luna");
             }
         }
     }
